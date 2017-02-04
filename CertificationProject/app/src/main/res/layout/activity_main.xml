@@ -19,7 +19,8 @@
         android:padding="@dimen/txt_10"
         android:text="@string/button_label_toast"
         android:background="@color/colorPrimary"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        android:onClick="showToast"/>
 
     <TextView
         android:id="@+id/show_count"
@@ -41,5 +42,6 @@
         android:padding="@dimen/txt_10"
         android:text="@string/count"
         android:background="@color/colorPrimary"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white"
+        android:onClick="countUp"/>
 </LinearLayout>
